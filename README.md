@@ -6,13 +6,14 @@ This repository contains a practical example to showcase a few common prompt eng
 
 ## Setup
 
-Export your OpenAI API key as an environment variable:
+Export your Azure OpenAI API key and Endpoint as an environment variable:
 
 ```
-export OPENAI_API_KEY="your-api-key"
+export AZURE_OPENAI_API_KEY="your-api-key"
+export AZURE_OPENAI_ENDPOINT="your-api-key"
 ```
 
-You can generate your [API key](https://platform.openai.com/account/api-keys) in your OpenAI account settings.
+You can get your [API key](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python) from the Azure Portal.
 
 ## Install
 
